@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(43, 43, 95);
+}
+
+.logo{
+    height: 40px;
+ 
+}
+.moviecontainer{
+    height: 500px;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+
+}
+
+figure .moviecontainer img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+
+figcaption .heading{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background:  rgb(4, 57, 114);
+    color: #fff;
+}
+
+.overview{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    transform: translateY(100%);
+    transition: all .4s ease-in-out;
+    background-color: #fff;
+    padding: 40px;
+}
+
+.moviecontainer:hover .overview,
+.moviecontainer:active .overview,
+.moviecontainer:focus .overview {
+    transform:translateY(0);
+}

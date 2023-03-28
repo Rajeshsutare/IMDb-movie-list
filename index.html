@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>IMDb movie dynamic UI using forEach</title>
+</head>
+
+<body>
+    <header class="p-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-fluid logo" src="./assets/img/logo.png" alt="logo"><a href="index.html"></a>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" name="" placeholder="search movie" id="" class="form-control">
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <button type="button" class="btn btn-outline-warning">search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-fluid">
+            <div class="row " id="moviecards">
+
+            </div>
+        </div>
+    </main>
+
+    <script src="./assets/js/db.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
